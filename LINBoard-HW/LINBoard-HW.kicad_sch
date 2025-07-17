@@ -1,0 +1,783 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "27863e5d-8a22-474c-850d-36d8970b0f4a")
+	(paper "A4")
+	(title_block
+		(title "LINBoard")
+		(date "2025-07-11")
+		(rev "V1")
+		(company "Dingo Electronics")
+		(comment 1 "Cory Grant")
+	)
+	(lib_symbols)
+	(wire
+		(pts
+			(xy 124.46 59.69) (xy 134.62 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "026eef97-c259-4cb3-a813-3977ca845826")
+	)
+	(wire
+		(pts
+			(xy 124.46 102.87) (xy 134.62 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "28354645-a22f-4023-b299-ee57fcc060aa")
+	)
+	(wire
+		(pts
+			(xy 124.46 55.88) (xy 134.62 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2ed255a7-646c-4fdb-b08c-dcc86165a4e3")
+	)
+	(wire
+		(pts
+			(xy 124.46 63.5) (xy 134.62 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "31f447e2-b451-42fa-a7b9-eedb30882400")
+	)
+	(wire
+		(pts
+			(xy 124.46 87.63) (xy 134.62 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "52d9125d-aad8-4440-af9b-14959fd435b7")
+	)
+	(wire
+		(pts
+			(xy 170.18 93.98) (xy 179.07 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6731a279-cead-433c-af18-bb819f732f3f")
+	)
+	(wire
+		(pts
+			(xy 170.18 55.88) (xy 179.07 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "750d2d40-da44-4655-83c2-ad47912d63de")
+	)
+	(wire
+		(pts
+			(xy 170.18 97.79) (xy 179.07 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "77429fa5-40d2-461c-86d8-81dae448070c")
+	)
+	(wire
+		(pts
+			(xy 124.46 83.82) (xy 134.62 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ac04078d-0f1e-4574-b865-a98c65a7ed9f")
+	)
+	(wire
+		(pts
+			(xy 124.46 80.01) (xy 134.62 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b4b482ac-f487-41bc-b6d3-72348227a112")
+	)
+	(wire
+		(pts
+			(xy 124.46 106.68) (xy 134.62 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bb405ecf-7864-4432-971b-143c9bd229a8")
+	)
+	(wire
+		(pts
+			(xy 124.46 99.06) (xy 134.62 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d2bac86c-2e88-47ee-9c04-5ffec81b737a")
+	)
+	(global_label "LIN"
+		(shape bidirectional)
+		(at 100.33 55.88 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "66bed5db-91e2-40cc-bb13-aaf741311b74")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 93.2701 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "CAN_L"
+		(shape bidirectional)
+		(at 204.47 74.93 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "8c990ba7-29b5-446b-aa7f-3bc6b6a14395")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 214.2513 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "CAN_L"
+		(shape bidirectional)
+		(at 100.33 83.82 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "8ece9aa1-d4db-4917-97cc-c22604ca2c47")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 90.5487 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "CAN_H"
+		(shape bidirectional)
+		(at 100.33 80.01 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "ab0eeded-9c3e-4b08-bae9-389fc99c8d23")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 90.2463 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "CAN_H"
+		(shape bidirectional)
+		(at 204.47 71.12 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "ba9c1d7f-649e-4515-8c14-195dd494afb0")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 214.5537 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "LIN"
+		(shape bidirectional)
+		(at 204.47 59.69 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "f248e839-fd18-4e24-8d23-194652cdf214")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 211.5299 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(sheet
+		(at 179.07 52.832)
+		(size 25.4 51.816)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "33375ab4-d724-4202-b76f-e99edd78e94c")
+		(property "Sheetname" "Connectors"
+			(at 179.07 52.1204 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Connectors.kicad_sch"
+			(at 179.07 105.2326 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "LIN" bidirectional
+			(at 204.47 59.69 0)
+			(uuid "773c7a93-5568-43a2-a523-a56ed5bb82b2")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "CAN_H" bidirectional
+			(at 204.47 71.12 0)
+			(uuid "824a4474-6829-4e1d-b8cf-3f6f88267c7f")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "CAN_L" bidirectional
+			(at 204.47 74.93 0)
+			(uuid "7631c5d1-3fab-45b3-a966-794493f630ed")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "USB_D+" bidirectional
+			(at 179.07 93.98 180)
+			(uuid "9d3f9836-b849-4195-a92c-441ea9ed8d54")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "USB_D-" bidirectional
+			(at 179.07 97.79 180)
+			(uuid "093ccbb4-5ac7-4588-be06-3158783243a7")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "ENABLE" output
+			(at 179.07 55.88 180)
+			(uuid "e74fca56-ea00-48e0-abee-2c51a23e7a1c")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "LINBoard-HW"
+				(path "/27863e5d-8a22-474c-850d-36d8970b0f4a"
+					(page "10")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 100.33 76.2)
+		(size 24.13 37.084)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "b4409545-53c7-4f50-ab4b-a05376db3f02")
+		(property "Sheetname" "CAN"
+			(at 100.33 75.4884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "CAN.kicad_sch"
+			(at 100.33 113.8686 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "H" bidirectional
+			(at 100.33 80.01 180)
+			(uuid "28407ccc-2891-4663-b941-2d2961efdd1b")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "L" bidirectional
+			(at 100.33 83.82 180)
+			(uuid "85406bd3-a350-4767-abc1-56b160f1bec1")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "~{TX0RTS}" input
+			(at 124.46 102.87 0)
+			(uuid "427629b8-9a20-4aac-9a4d-5689c4847c91")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "MOSI" input
+			(at 124.46 83.82 0)
+			(uuid "cf943557-755a-4639-9786-6ceaf6636463")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "SCK" input
+			(at 124.46 80.01 0)
+			(uuid "63b432d0-b0f3-43f0-881e-5a8563949bee")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "~{RX0BF}" output
+			(at 124.46 106.68 0)
+			(uuid "42784761-f984-4a9b-80cd-b4e10b83177c")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "~{INT}" output
+			(at 124.46 99.06 0)
+			(uuid "4b92ca05-e804-4e0b-b08a-826767ae1b32")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "MISO" output
+			(at 124.46 87.63 0)
+			(uuid "39a50c9f-7bfa-4d7b-b799-3d6a3021d5a3")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "LINBoard-HW"
+				(path "/27863e5d-8a22-474c-850d-36d8970b0f4a"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 18.542 18.796)
+		(size 22.86 24.13)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "f2430bd2-0c34-49e2-a275-9ffcb384aba8")
+		(property "Sheetname" "Power"
+			(at 18.542 18.0844 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Power.kicad_sch"
+			(at 18.542 43.5106 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "LINBoard-HW"
+				(path "/27863e5d-8a22-474c-850d-36d8970b0f4a"
+					(page "5")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 134.62 52.07)
+		(size 35.56 89.408)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "f9f0d019-516b-46b2-944a-918146f3329e")
+		(property "Sheetname" "Microcontroller"
+			(at 134.62 51.3584 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Microcontroller.kicad_sch"
+			(at 134.62 142.0626 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "USB_DP" bidirectional
+			(at 170.18 93.98 0)
+			(uuid "3796164d-ef30-4d2a-b757-f315671af5b5")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "USB_DM" bidirectional
+			(at 170.18 97.79 0)
+			(uuid "91fad586-8af3-4b4e-a077-4ba29499476b")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "~{CAN_INT}" input
+			(at 134.62 99.06 180)
+			(uuid "f92d72f0-0d06-41e6-9040-75cab46e6206")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "~{CAN_RX0BF}" input
+			(at 134.62 106.68 180)
+			(uuid "f7fc2446-4908-491f-a6b7-b6aee7dc1cb4")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "~{CAN_TX0RTS}" output
+			(at 134.62 102.87 180)
+			(uuid "c4258b73-f2c7-48fe-9f6a-87efe2486c2b")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "~{LIN_SLP}" output
+			(at 134.62 63.5 180)
+			(uuid "7f9375bc-5564-4480-a745-ecdc482fcfae")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "ENABLE" input
+			(at 170.18 55.88 0)
+			(uuid "7a704120-11e0-4b97-8e37-12bf494313b0")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "SPI1_RX" input
+			(at 134.62 87.63 180)
+			(uuid "be130962-c227-448b-b8e7-a371d368e2a2")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "SPI1_SCK" output
+			(at 134.62 80.01 180)
+			(uuid "d3772823-610d-4512-87a3-cef1f5af3138")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "SPI1_TX" output
+			(at 134.62 83.82 180)
+			(uuid "0523c10a-a11e-47b7-b5bf-d9a97783fe4a")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "UART0_RX" input
+			(at 134.62 59.69 180)
+			(uuid "9ce75625-afd9-4565-9c68-ada7aa29f5a9")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "UART0_TX" output
+			(at 134.62 55.88 180)
+			(uuid "bb11bcd8-5825-438d-b738-aeceeae5781e")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "LINBoard-HW"
+				(path "/27863e5d-8a22-474c-850d-36d8970b0f4a"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 100.33 52.07)
+		(size 24.13 15.24)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "ff1b1819-f305-4259-a9f0-6b6ad7c927fb")
+		(property "Sheetname" "LIN"
+			(at 100.33 51.3584 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "LIN.kicad_sch"
+			(at 100.33 67.8946 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "LIN" bidirectional
+			(at 100.33 55.88 180)
+			(uuid "0514ecc1-18b9-4d66-8fb2-35452ea44954")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "~{SLP}" input
+			(at 124.46 63.5 0)
+			(uuid "2daeef07-d7cd-4315-a567-aa048a5f1a21")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "RX" output
+			(at 124.46 59.69 0)
+			(uuid "036fee48-cac6-4ee8-bd3b-a88d3074cce7")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "TX" input
+			(at 124.46 55.88 0)
+			(uuid "935dd761-ce75-4fe0-93a1-4c85130afed4")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "LINBoard-HW"
+				(path "/27863e5d-8a22-474c-850d-36d8970b0f4a"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+)
