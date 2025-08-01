@@ -74,16 +74,6 @@
 	)
 	(wire
 		(pts
-			(xy 170.18 55.88) (xy 179.07 55.88)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "750d2d40-da44-4655-83c2-ad47912d63de")
-	)
-	(wire
-		(pts
 			(xy 170.18 97.79) (xy 179.07 97.79)
 		)
 		(stroke
@@ -156,7 +146,7 @@
 	)
 	(global_label "CAN_L"
 		(shape bidirectional)
-		(at 204.47 74.93 0)
+		(at 204.47 97.79 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -166,7 +156,7 @@
 		)
 		(uuid "8c990ba7-29b5-446b-aa7f-3bc6b6a14395")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 214.2513 74.93 0)
+			(at 214.2513 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -222,7 +212,7 @@
 	)
 	(global_label "CAN_H"
 		(shape bidirectional)
-		(at 204.47 71.12 0)
+		(at 204.47 93.98 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -232,7 +222,7 @@
 		)
 		(uuid "ba9c1d7f-649e-4515-8c14-195dd494afb0")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 214.5537 71.12 0)
+			(at 214.5537 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -244,7 +234,7 @@
 	)
 	(global_label "LIN"
 		(shape bidirectional)
-		(at 204.47 59.69 0)
+		(at 204.47 90.17 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -254,7 +244,7 @@
 		)
 		(uuid "f248e839-fd18-4e24-8d23-194652cdf214")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 211.5299 59.69 0)
+			(at 211.5299 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -265,8 +255,8 @@
 		)
 	)
 	(sheet
-		(at 179.07 52.832)
-		(size 25.4 51.816)
+		(at 179.07 86.36)
+		(size 25.4 18.288)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -281,7 +271,7 @@
 		)
 		(uuid "33375ab4-d724-4202-b76f-e99edd78e94c")
 		(property "Sheetname" "Connectors"
-			(at 179.07 52.1204 0)
+			(at 179.07 85.6484 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -299,7 +289,7 @@
 			)
 		)
 		(pin "LIN" bidirectional
-			(at 204.47 59.69 0)
+			(at 204.47 90.17 0)
 			(uuid "773c7a93-5568-43a2-a523-a56ed5bb82b2")
 			(effects
 				(font
@@ -309,7 +299,7 @@
 			)
 		)
 		(pin "CAN_H" bidirectional
-			(at 204.47 71.12 0)
+			(at 204.47 93.98 0)
 			(uuid "824a4474-6829-4e1d-b8cf-3f6f88267c7f")
 			(effects
 				(font
@@ -319,7 +309,7 @@
 			)
 		)
 		(pin "CAN_L" bidirectional
-			(at 204.47 74.93 0)
+			(at 204.47 97.79 0)
 			(uuid "7631c5d1-3fab-45b3-a966-794493f630ed")
 			(effects
 				(font
@@ -341,16 +331,6 @@
 		(pin "USB_D-" bidirectional
 			(at 179.07 97.79 180)
 			(uuid "093ccbb4-5ac7-4588-be06-3158783243a7")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "ENABLE" output
-			(at 179.07 55.88 180)
-			(uuid "e74fca56-ea00-48e0-abee-2c51a23e7a1c")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -622,16 +602,6 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
-			)
-		)
-		(pin "ENABLE" input
-			(at 170.18 55.88 0)
-			(uuid "7a704120-11e0-4b97-8e37-12bf494313b0")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
 			)
 		)
 		(pin "SPI1_RX" input

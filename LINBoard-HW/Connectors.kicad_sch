@@ -1625,6 +1625,12 @@
 		(uuid "56ad6387-2031-45ad-8177-07b2d4ad516f")
 	)
 	(junction
+		(at 57.15 50.8)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ae4ae397-f182-4cca-a2a1-6676544ec0e3")
+	)
+	(junction
 		(at 54.61 133.35)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1660,7 +1666,7 @@
 	)
 	(wire
 		(pts
-			(xy 58.42 50.8) (xy 58.42 54.61)
+			(xy 57.15 48.26) (xy 57.15 50.8)
 		)
 		(stroke
 			(width 0)
@@ -1680,7 +1686,7 @@
 	)
 	(wire
 		(pts
-			(xy 60.96 38.1) (xy 58.42 38.1)
+			(xy 53.34 38.1) (xy 60.96 38.1)
 		)
 		(stroke
 			(width 0)
@@ -1707,16 +1713,6 @@
 			(type default)
 		)
 		(uuid "a15b52b7-b382-41bf-b953-395e88dbffcb")
-	)
-	(wire
-		(pts
-			(xy 60.96 50.8) (xy 58.42 50.8)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a3d04d9b-3af8-40f3-b5e1-48a8144201fd")
 	)
 	(wire
 		(pts
@@ -1750,6 +1746,16 @@
 	)
 	(wire
 		(pts
+			(xy 57.15 50.8) (xy 60.96 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ca26e272-6ee7-465c-8e6f-83a1ccf895ed")
+	)
+	(wire
+		(pts
 			(xy 54.61 128.27) (xy 63.5 128.27)
 		)
 		(stroke
@@ -1770,7 +1776,27 @@
 	)
 	(wire
 		(pts
-			(xy 58.42 38.1) (xy 58.42 35.56)
+			(xy 57.15 50.8) (xy 57.15 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d33e538c-9779-4d09-a1a4-78545dce4c8f")
+	)
+	(wire
+		(pts
+			(xy 60.96 48.26) (xy 57.15 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f4bdcb55-203a-45ee-a4eb-19d06c5c9546")
+	)
+	(wire
+		(pts
+			(xy 53.34 38.1) (xy 53.34 35.56)
 		)
 		(stroke
 			(width 0)
@@ -1802,17 +1828,6 @@
 	)
 	(hierarchical_label "CAN_H"
 		(shape bidirectional)
-		(at 60.96 40.64 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "851d567e-8d54-46a5-afb9-6f25be2ba6c0")
-	)
-	(hierarchical_label "ENABLE"
-		(shape output)
 		(at 60.96 45.72 180)
 		(effects
 			(font
@@ -1820,7 +1835,7 @@
 			)
 			(justify right)
 		)
-		(uuid "ad115a1d-ccdd-4d8f-b4c8-e866fe46a7ff")
+		(uuid "851d567e-8d54-46a5-afb9-6f25be2ba6c0")
 	)
 	(hierarchical_label "USB_D-"
 		(shape bidirectional)
@@ -1835,7 +1850,7 @@
 	)
 	(hierarchical_label "LIN"
 		(shape bidirectional)
-		(at 60.96 48.26 180)
+		(at 60.96 40.64 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2058,7 +2073,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 66.04 113.03 90)
 			(effects
 				(font
@@ -2102,16 +2117,15 @@
 	)
 	(symbol
 		(lib_id "power:+12V")
-		(at 58.42 35.56 0)
+		(at 53.34 35.56 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "7ab304af-13ed-420b-843f-8b26c6775a61")
 		(property "Reference" "#PWR018"
-			(at 58.42 39.37 0)
+			(at 53.34 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2120,7 +2134,7 @@
 			)
 		)
 		(property "Value" "+12V"
-			(at 58.42 30.48 0)
+			(at 53.086 31.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2128,7 +2142,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 58.42 35.56 0)
+			(at 53.34 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2137,7 +2151,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 58.42 35.56 0)
+			(at 53.34 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2146,7 +2160,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+12V\""
-			(at 58.42 35.56 0)
+			(at 53.34 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2168,7 +2182,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 58.42 54.61 0)
+		(at 57.15 58.42 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2177,7 +2191,7 @@
 		(fields_autoplaced yes)
 		(uuid "975fa8e6-10df-4598-a300-4c3906f6a7c8")
 		(property "Reference" "#PWR019"
-			(at 58.42 60.96 0)
+			(at 57.15 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2186,7 +2200,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 58.42 59.69 0)
+			(at 57.15 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2194,7 +2208,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 58.42 54.61 0)
+			(at 57.15 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2203,7 +2217,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 58.42 54.61 0)
+			(at 57.15 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2212,7 +2226,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 58.42 54.61 0)
+			(at 57.15 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2251,7 +2265,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "ATM13-6P-BM03"
+		(property "Value" "ATM15-6P-BM03"
 			(at 68.58 45.7199 0)
 			(effects
 				(font
@@ -2260,7 +2274,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "ATM:ATM13-6P"
 			(at 66.04 43.18 0)
 			(effects
 				(font
@@ -2342,7 +2356,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 80.01 123.19 0)
 			(effects
 				(font
@@ -2478,7 +2492,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 90.17 123.19 0)
 			(effects
 				(font

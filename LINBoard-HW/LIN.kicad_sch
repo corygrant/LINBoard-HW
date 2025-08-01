@@ -673,7 +673,10 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Switch:SW_SPDT"
+		(symbol "Jumper:Jumper_2_Small_Bridged"
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
 				(offset 0)
 				(hide yes)
@@ -681,16 +684,16 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "SW"
-				(at 0 5.08 0)
+			(property "Reference" "JP"
+				(at 0 2.032 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 				)
 			)
-			(property "Value" "SW_SPDT"
-				(at 0 -5.08 0)
+			(property "Value" "Jumper_2_Small_Bridged"
+				(at 0 -2.286 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -707,15 +710,6 @@
 				)
 			)
 			(property "Datasheet" "~"
-				(at 0 -7.62 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Switch, single pole double throw"
 				(at 0 0 0)
 				(effects
 					(font
@@ -724,7 +718,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_keywords" "switch single-pole double-throw spdt ON-ON"
+			(property "Description" "Jumper, 2-pole, small symbol, bridged"
 				(at 0 0 0)
 				(effects
 					(font
@@ -733,33 +727,28 @@
 					(hide yes)
 				)
 			)
-			(symbol "SW_SPDT_0_1"
-				(circle
-					(center -2.032 0)
-					(radius 0.4572)
-					(stroke
-						(width 0)
-						(type default)
+			(property "ki_keywords" "Jumper SPST"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
 					)
-					(fill
-						(type none)
-					)
+					(hide yes)
 				)
-				(polyline
-					(pts
-						(xy -1.651 0.254) (xy 1.651 2.286)
+			)
+			(property "ki_fp_filters" "Jumper* TestPoint*2Pads* TestPoint*Bridge*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
 					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
+					(hide yes)
 				)
+			)
+			(symbol "Jumper_2_Small_Bridged_0_0"
 				(circle
-					(center 2.032 2.54)
-					(radius 0.4572)
+					(center -1.016 0)
+					(radius 0.254)
 					(stroke
 						(width 0)
 						(type default)
@@ -769,8 +758,8 @@
 					)
 				)
 				(circle
-					(center 2.032 -2.54)
-					(radius 0.4572)
+					(center 1.016 0)
+					(radius 0.254)
 					(stroke
 						(width 0)
 						(type default)
@@ -780,39 +769,24 @@
 					)
 				)
 			)
-			(symbol "SW_SPDT_1_1"
-				(rectangle
-					(start -3.175 3.81)
-					(end 3.175 -3.81)
+			(symbol "Jumper_2_Small_Bridged_0_1"
+				(arc
+					(start -0.762 0.254)
+					(mid 0 0.5696)
+					(end 0.762 0.254)
 					(stroke
 						(width 0)
 						(type default)
 					)
 					(fill
-						(type background)
+						(type none)
 					)
 				)
+			)
+			(symbol "Jumper_2_Small_Bridged_1_1"
 				(pin passive line
-					(at -5.08 0 0)
-					(length 2.54)
-					(name "B"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 5.08 2.54 180)
-					(length 2.54)
+					(at -2.54 0 0)
+					(length 1.27)
 					(name "A"
 						(effects
 							(font
@@ -829,16 +803,16 @@
 					)
 				)
 				(pin passive line
-					(at 5.08 -2.54 180)
-					(length 2.54)
-					(name "C"
+					(at 2.54 0 180)
+					(length 1.27)
+					(name "B"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "3"
+					(number "2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1206,6 +1180,131 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "power:+3.3V"
+			(power)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "+3.3V"
+				(at 0 3.556 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "+3.3V_0_1"
+				(polyline
+					(pts
+						(xy -0.762 1.27) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "+3.3V_1_1"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "power:GND"
 			(power)
 			(pin_numbers
@@ -1309,12 +1408,6 @@
 		)
 	)
 	(junction
-		(at 119.38 80.01)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "1658e882-26c6-4aa3-9be2-348166b439b4")
-	)
-	(junction
 		(at 157.48 106.68)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1350,13 +1443,9 @@
 		(color 0 0 0 0)
 		(uuid "c62ee830-5a81-4a88-881b-fa204b45ad31")
 	)
-	(no_connect
-		(at 161.29 95.25)
-		(uuid "5257d355-3b84-4e26-81d8-311819edbd92")
-	)
 	(wire
 		(pts
-			(xy 163.83 105.41) (xy 163.83 106.68)
+			(xy 163.83 102.87) (xy 163.83 106.68)
 		)
 		(stroke
 			(width 0)
@@ -1376,7 +1465,7 @@
 	)
 	(wire
 		(pts
-			(xy 166.37 86.36) (xy 166.37 88.9)
+			(xy 163.83 86.36) (xy 163.83 88.9)
 		)
 		(stroke
 			(width 0)
@@ -1476,7 +1565,17 @@
 	)
 	(wire
 		(pts
-			(xy 166.37 93.98) (xy 166.37 95.25)
+			(xy 111.76 87.63) (xy 111.76 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8d23ce1d-f09b-4158-9d31-bdeaa69aa108")
+	)
+	(wire
+		(pts
+			(xy 163.83 93.98) (xy 163.83 97.79)
 		)
 		(stroke
 			(width 0)
@@ -1516,16 +1615,6 @@
 	)
 	(wire
 		(pts
-			(xy 111.76 80.01) (xy 119.38 80.01)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b15e8919-992a-4684-9f98-6be648e57ce0")
-	)
-	(wire
-		(pts
 			(xy 143.51 106.68) (xy 157.48 106.68)
 		)
 		(stroke
@@ -1536,7 +1625,7 @@
 	)
 	(wire
 		(pts
-			(xy 166.37 77.47) (xy 130.81 77.47)
+			(xy 163.83 77.47) (xy 130.81 77.47)
 		)
 		(stroke
 			(width 0)
@@ -1546,17 +1635,7 @@
 	)
 	(wire
 		(pts
-			(xy 111.76 90.17) (xy 111.76 80.01)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "efb8405d-06ac-4b90-afeb-a894885526af")
-	)
-	(wire
-		(pts
-			(xy 166.37 81.28) (xy 166.37 77.47)
+			(xy 163.83 81.28) (xy 163.83 77.47)
 		)
 		(stroke
 			(width 0)
@@ -1619,7 +1698,7 @@
 		(uuid "e3fff70c-a97d-4347-8c37-e78532a0d832")
 	)
 	(symbol
-		(lib_id "Switch:SW_SPDT")
+		(lib_id "Jumper:Jumper_2_Small_Bridged")
 		(at 163.83 100.33 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -1627,9 +1706,9 @@
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "032881f7-6b71-43f5-82ee-8d5b21d8fd50")
-		(property "Reference" "SW1"
-			(at 168.91 99.0599 90)
+		(uuid "25b03ee6-4211-42ca-9ee3-1f222507b512")
+		(property "Reference" "JP6"
+			(at 165.1 99.0599 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1638,7 +1717,7 @@
 			)
 		)
 		(property "Value" "MASTER"
-			(at 168.91 101.5999 90)
+			(at 165.1 101.5999 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1646,7 +1725,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Bridged_RoundedPad1.0x1.5mm"
 			(at 163.83 100.33 0)
 			(effects
 				(font
@@ -1656,15 +1735,6 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 171.45 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Switch, single pole double throw"
 			(at 163.83 100.33 0)
 			(effects
 				(font
@@ -1673,19 +1743,25 @@
 				(hide yes)
 			)
 		)
-		(pin "3"
-			(uuid "754c9ff0-bf2f-4947-b862-86a7c49ea340")
-		)
-		(pin "1"
-			(uuid "fc25b669-524f-45ec-8ab2-4ce290644975")
+		(property "Description" "Jumper, 2-pole, small symbol, bridged"
+			(at 163.83 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
 		)
 		(pin "2"
-			(uuid "9a423a82-dc5d-4119-9728-f61a1e18fca1")
+			(uuid "ceedbadf-0a1a-472b-8696-8bab81689614")
+		)
+		(pin "1"
+			(uuid "ad3b8457-fcbe-4b32-a19a-8e761499d415")
 		)
 		(instances
-			(project "LINBoard-HW"
+			(project ""
 				(path "/27863e5d-8a22-474c-850d-36d8970b0f4a/ff1b1819-f305-4259-a9f0-6b6ad7c927fb"
-					(reference "SW1")
+					(reference "JP6")
 					(unit 1)
 				)
 			)
@@ -1870,7 +1946,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 111.76 92.71 0)
 			(effects
 				(font
@@ -1940,7 +2016,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 119.38 85.09 0)
 			(effects
 				(font
@@ -2010,7 +2086,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 157.48 113.03 0)
 			(effects
 				(font
@@ -2054,7 +2130,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small_US")
-		(at 166.37 91.44 0)
+		(at 163.83 91.44 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2063,7 +2139,7 @@
 		(fields_autoplaced yes)
 		(uuid "73c272ef-7183-4d79-bd94-5a8c30d6b35d")
 		(property "Reference" "R1"
-			(at 168.91 90.1699 0)
+			(at 166.37 90.1699 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2072,7 +2148,7 @@
 			)
 		)
 		(property "Value" "1K"
-			(at 168.91 92.7099 0)
+			(at 166.37 92.7099 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2080,8 +2156,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 166.37 91.44 0)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 163.83 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2090,7 +2166,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 166.37 91.44 0)
+			(at 163.83 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2099,7 +2175,7 @@
 			)
 		)
 		(property "Description" "Resistor, small US symbol"
-			(at 166.37 91.44 0)
+			(at 163.83 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2117,6 +2193,72 @@
 			(project "LINBoard-HW"
 				(path "/27863e5d-8a22-474c-850d-36d8970b0f4a/ff1b1819-f305-4259-a9f0-6b6ad7c927fb"
 					(reference "R1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3.3V")
+		(at 111.76 87.63 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7b3cb677-deb8-4ae6-bc61-43483d3ade98")
+		(property "Reference" "#PWR06"
+			(at 111.76 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 111.76 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 111.76 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 111.76 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 111.76 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9fc46b44-4d7c-4ead-97b3-f72b6c7b09bc")
+		)
+		(instances
+			(project ""
+				(path "/27863e5d-8a22-474c-850d-36d8970b0f4a/ff1b1819-f305-4259-a9f0-6b6ad7c927fb"
+					(reference "#PWR06")
 					(unit 1)
 				)
 			)
@@ -2150,7 +2292,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_SOD-323"
 			(at 176.53 114.3 0)
 			(effects
 				(font
@@ -2392,7 +2534,7 @@
 	)
 	(symbol
 		(lib_id "Device:D_Schottky_Small_Filled")
-		(at 166.37 83.82 90)
+		(at 163.83 83.82 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2401,7 +2543,7 @@
 		(fields_autoplaced yes)
 		(uuid "e46a14d6-216d-4f54-8ebd-e6145d4dab69")
 		(property "Reference" "D2"
-			(at 168.91 82.8039 90)
+			(at 166.37 82.8039 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2409,8 +2551,8 @@
 				(justify right)
 			)
 		)
-		(property "Value" "D_Schottky_Small_Filled"
-			(at 168.91 85.3439 90)
+		(property "Value" "Schottky"
+			(at 166.37 85.3439 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2418,8 +2560,8 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
-			(at 166.37 83.82 90)
+		(property "Footprint" "Diode_SMD:D_SOD-123"
+			(at 163.83 83.82 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2428,7 +2570,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 166.37 83.82 90)
+			(at 163.83 83.82 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2437,7 +2579,7 @@
 			)
 		)
 		(property "Description" "Schottky diode, small symbol, filled shape"
-			(at 166.37 83.82 0)
+			(at 163.83 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
