@@ -1893,7 +1893,7 @@
 				)
 			)
 		)
-		(property "Footprint" "vert_usb:TYPE-C-SMD_USB4120-03-C"
+		(property "Footprint" "Connector_USB:USB_C_Receptacle_GCT_USB4085"
 			(at 68.58 173.99 0)
 			(effects
 				(font
@@ -2148,7 +2148,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "ATM:ATM15-6P_NoMountingHoles"
+		(property "Footprint" "ATM:ATM13-6P"
 			(at 66.04 43.18 0)
 			(effects
 				(font
