@@ -6,7 +6,7 @@
 	(paper "A4")
 	(title_block
 		(title "LINBoard")
-		(date "2025-07-11")
+		(date "2025-08-11")
 		(rev "V1")
 		(company "Dingo Electronics")
 		(comment 1 "Cory Grant")

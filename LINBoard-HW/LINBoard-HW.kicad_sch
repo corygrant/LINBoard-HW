@@ -6,7 +6,7 @@
 	(paper "A4")
 	(title_block
 		(title "LINBoard")
-		(date "2025-07-11")
+		(date "2025-08-11")
 		(rev "V1")
 		(company "Dingo Electronics")
 		(comment 1 "Cory Grant")
@@ -14,33 +14,13 @@
 	(lib_symbols)
 	(wire
 		(pts
-			(xy 124.46 59.69) (xy 134.62 59.69)
+			(xy 124.46 83.82) (xy 134.62 83.82)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "026eef97-c259-4cb3-a813-3977ca845826")
-	)
-	(wire
-		(pts
-			(xy 124.46 102.87) (xy 134.62 102.87)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "28354645-a22f-4023-b299-ee57fcc060aa")
-	)
-	(wire
-		(pts
-			(xy 124.46 55.88) (xy 134.62 55.88)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2ed255a7-646c-4fdb-b08c-dcc86165a4e3")
+		(uuid "201692c9-1280-4ab4-9228-1f166dad5455")
 	)
 	(wire
 		(pts
@@ -50,7 +30,7 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "31f447e2-b451-42fa-a7b9-eedb30882400")
+		(uuid "2e7cf836-24aa-4ae4-a6be-d6c1409a2ced")
 	)
 	(wire
 		(pts
@@ -60,7 +40,7 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "52d9125d-aad8-4440-af9b-14959fd435b7")
+		(uuid "55d3b2ef-37a8-4175-b745-0f52ccf6c82f")
 	)
 	(wire
 		(pts
@@ -84,43 +64,33 @@
 	)
 	(wire
 		(pts
-			(xy 124.46 83.82) (xy 134.62 83.82)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ac04078d-0f1e-4574-b865-a98c65a7ed9f")
-	)
-	(wire
-		(pts
 			(xy 124.46 80.01) (xy 134.62 80.01)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "b4b482ac-f487-41bc-b6d3-72348227a112")
+		(uuid "993ae4b1-e564-4182-bfb7-37c179ac4e43")
 	)
 	(wire
 		(pts
-			(xy 124.46 106.68) (xy 134.62 106.68)
+			(xy 124.46 59.69) (xy 134.62 59.69)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "bb405ecf-7864-4432-971b-143c9bd229a8")
+		(uuid "abec4150-c82a-4016-911a-dfa0198e7720")
 	)
 	(wire
 		(pts
-			(xy 124.46 99.06) (xy 134.62 99.06)
+			(xy 124.46 55.88) (xy 134.62 55.88)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "d2bac86c-2e88-47ee-9c04-5ffec81b737a")
+		(uuid "f0e28470-b8a9-466e-a313-a6a68e914432")
 	)
 	(global_label "LIN"
 		(shape bidirectional)
@@ -400,29 +370,9 @@
 				(justify left)
 			)
 		)
-		(pin "~{TX0RTS}" input
-			(at 124.46 102.87 0)
-			(uuid "427629b8-9a20-4aac-9a4d-5689c4847c91")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "MOSI" input
-			(at 124.46 83.82 0)
-			(uuid "cf943557-755a-4639-9786-6ceaf6636463")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "SCK" input
+		(pin "TX" bidirectional
 			(at 124.46 80.01 0)
-			(uuid "63b432d0-b0f3-43f0-881e-5a8563949bee")
+			(uuid "729a262b-b50c-40b3-bc84-5603b802ec14")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -430,9 +380,9 @@
 				(justify right)
 			)
 		)
-		(pin "~{RX0BF}" output
-			(at 124.46 106.68 0)
-			(uuid "42784761-f984-4a9b-80cd-b4e10b83177c")
+		(pin "RX" bidirectional
+			(at 124.46 83.82 0)
+			(uuid "a34cd82e-516a-4996-9d0e-cec755e1a563")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -440,19 +390,9 @@
 				(justify right)
 			)
 		)
-		(pin "~{INT}" output
-			(at 124.46 99.06 0)
-			(uuid "4b92ca05-e804-4e0b-b08a-826767ae1b32")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "MISO" output
+		(pin "STANDBY" input
 			(at 124.46 87.63 0)
-			(uuid "39a50c9f-7bfa-4d7b-b799-3d6a3021d5a3")
+			(uuid "3adf4bd4-f4c2-448a-a982-49a6ddf370e2")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -564,69 +504,9 @@
 				(justify right)
 			)
 		)
-		(pin "~{CAN_INT}" input
-			(at 134.62 99.06 180)
-			(uuid "f92d72f0-0d06-41e6-9040-75cab46e6206")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "~{CAN_RX0BF}" input
-			(at 134.62 106.68 180)
-			(uuid "f7fc2446-4908-491f-a6b7-b6aee7dc1cb4")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "~{CAN_TX0RTS}" output
-			(at 134.62 102.87 180)
-			(uuid "c4258b73-f2c7-48fe-9f6a-87efe2486c2b")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "~{LIN_SLP}" output
-			(at 134.62 63.5 180)
-			(uuid "7f9375bc-5564-4480-a745-ecdc482fcfae")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "SPI1_RX" input
-			(at 134.62 87.63 180)
-			(uuid "be130962-c227-448b-b8e7-a371d368e2a2")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "SPI1_SCK" output
-			(at 134.62 80.01 180)
-			(uuid "d3772823-610d-4512-87a3-cef1f5af3138")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "SPI1_TX" output
+		(pin "CAN_RX" bidirectional
 			(at 134.62 83.82 180)
-			(uuid "0523c10a-a11e-47b7-b5bf-d9a97783fe4a")
+			(uuid "d4f039af-e825-4394-a920-f07f054ac230")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -634,9 +514,39 @@
 				(justify left)
 			)
 		)
-		(pin "UART0_RX" input
+		(pin "CAN_TX" bidirectional
+			(at 134.62 80.01 180)
+			(uuid "96d3cbfb-66c7-45c4-855b-87519fa5db9a")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "CAN_STANDBY" output
+			(at 134.62 87.63 180)
+			(uuid "f38ead7d-5132-4ac1-9f56-e3522dbc0afb")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "~{LIN_STANDBY}" output
+			(at 134.62 63.5 180)
+			(uuid "c1c894b0-2b9a-43dd-9f8a-8212dede8cc5")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "UART_RX" input
 			(at 134.62 59.69 180)
-			(uuid "9ce75625-afd9-4565-9c68-ada7aa29f5a9")
+			(uuid "c72c2768-c5dc-4357-b4bd-f256f7c8b8f6")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -644,9 +554,9 @@
 				(justify left)
 			)
 		)
-		(pin "UART0_TX" output
+		(pin "UART_TX" output
 			(at 134.62 55.88 180)
-			(uuid "bb11bcd8-5825-438d-b738-aeceeae5781e")
+			(uuid "66dba430-1b20-4b6e-9496-eaccdb4c4bf1")
 			(effects
 				(font
 					(size 1.27 1.27)
