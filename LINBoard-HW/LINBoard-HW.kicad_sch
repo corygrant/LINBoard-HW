@@ -544,9 +544,9 @@
 				(justify left)
 			)
 		)
-		(pin "UART_RX" input
+		(pin "UART2_RX" input
 			(at 134.62 59.69 180)
-			(uuid "c72c2768-c5dc-4357-b4bd-f256f7c8b8f6")
+			(uuid "10b518fc-2505-4dd8-aac3-6cffef859e09")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -554,9 +554,9 @@
 				(justify left)
 			)
 		)
-		(pin "UART_TX" output
+		(pin "UART2_TX" output
 			(at 134.62 55.88 180)
-			(uuid "66dba430-1b20-4b6e-9496-eaccdb4c4bf1")
+			(uuid "4361c711-f163-4627-bb71-ae43d391dc5f")
 			(effects
 				(font
 					(size 1.27 1.27)
