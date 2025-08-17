@@ -2036,6 +2036,12 @@
 		(uuid "4391be53-fb11-4614-9680-89cd897e3fb9")
 	)
 	(junction
+		(at 30.48 22.86)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4a6913f5-cf88-49d0-b02b-218827a94fc1")
+	)
+	(junction
 		(at 119.38 50.8)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2052,12 +2058,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ad47991c-9e99-4409-88e4-547b938d2d29")
-	)
-	(junction
-		(at 30.48 31.75)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "ba43d9a8-2d76-4a8d-a261-f7c00130a599")
 	)
 	(junction
 		(at 50.8 40.64)
@@ -2165,7 +2165,7 @@
 	)
 	(wire
 		(pts
-			(xy 30.48 29.21) (xy 30.48 31.75)
+			(xy 30.48 20.32) (xy 30.48 22.86)
 		)
 		(stroke
 			(width 0)
@@ -2282,16 +2282,6 @@
 			(type default)
 		)
 		(uuid "3e8e5da4-45c9-4acf-a407-daa51b2c82ad")
-	)
-	(wire
-		(pts
-			(xy 25.4 31.75) (xy 30.48 31.75)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "43ba9ad9-9a44-4605-8d08-aa6b5a8b851d")
 	)
 	(wire
 		(pts
@@ -2465,23 +2455,13 @@
 	)
 	(wire
 		(pts
-			(xy 17.78 29.21) (xy 17.78 31.75)
+			(xy 17.78 20.32) (xy 17.78 22.86)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "9887396c-39e4-42df-b7dd-7da9ead14fae")
-	)
-	(wire
-		(pts
-			(xy 17.78 31.75) (xy 20.32 31.75)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9c6e88eb-1ca7-4936-a7f8-fbe0e59a636b")
 	)
 	(wire
 		(pts
@@ -2535,16 +2515,6 @@
 	)
 	(wire
 		(pts
-			(xy 30.48 31.75) (xy 30.48 40.64)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c0f9e59e-6b7d-43df-8566-f5886a361281")
-	)
-	(wire
-		(pts
 			(xy 119.38 57.15) (xy 119.38 59.69)
 		)
 		(stroke
@@ -2585,6 +2555,16 @@
 	)
 	(wire
 		(pts
+			(xy 17.78 22.86) (xy 20.32 22.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d64b481a-d0dd-4ca5-b55e-e4e205eb6bd7")
+	)
+	(wire
+		(pts
 			(xy 91.44 40.64) (xy 91.44 34.29)
 		)
 		(stroke
@@ -2622,6 +2602,16 @@
 			(type default)
 		)
 		(uuid "e2ff8175-e679-4114-a935-55a1f14f3d64")
+	)
+	(wire
+		(pts
+			(xy 30.48 22.86) (xy 30.48 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e5b71c37-cd19-43c7-9a7a-8d5073369ee6")
 	)
 	(wire
 		(pts
@@ -2672,6 +2662,16 @@
 			(type default)
 		)
 		(uuid "f1975e12-98ab-4ac1-adfb-311640351e5a")
+	)
+	(wire
+		(pts
+			(xy 25.4 22.86) (xy 30.48 22.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "faf69ed0-d400-4597-b793-728a6985eae6")
 	)
 	(label "SW"
 		(at 96.52 34.29 0)
@@ -3500,6 +3500,73 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:D_Schottky_Small_Filled")
+		(at 22.86 22.86 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "708da76f-e16f-45b7-8769-4d180821e1d0")
+		(property "Reference" "D9"
+			(at 23.114 26.162 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Schottky"
+			(at 23.114 28.702 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-123"
+			(at 22.86 22.86 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 22.86 22.86 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Schottky diode, small symbol, filled shape"
+			(at 22.86 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ce0c07e6-e3f5-422b-a02e-c0ce09e146cf")
+		)
+		(pin "2"
+			(uuid "43b2de6a-ef7e-4fba-aa64-8fa75e3f9587")
+		)
+		(instances
+			(project "LINBoard-HW"
+				(path "/27863e5d-8a22-474c-850d-36d8970b0f4a/f2430bd2-0c34-49e2-a275-9ffcb384aba8"
+					(reference "D9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 187.96 44.45 0)
 		(unit 1)
@@ -3637,7 +3704,7 @@
 	)
 	(symbol
 		(lib_id "power:+12V")
-		(at 17.78 29.21 0)
+		(at 17.78 20.32 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3646,7 +3713,7 @@
 		(fields_autoplaced yes)
 		(uuid "8478dd4f-8ee5-4564-a930-a8f8298172c1")
 		(property "Reference" "#PWR07"
-			(at 17.78 33.02 0)
+			(at 17.78 24.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3655,7 +3722,7 @@
 			)
 		)
 		(property "Value" "+12V"
-			(at 17.78 24.13 0)
+			(at 17.78 15.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3663,7 +3730,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 17.78 29.21 0)
+			(at 17.78 20.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3672,7 +3739,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 17.78 29.21 0)
+			(at 17.78 20.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3681,7 +3748,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+12V\""
-			(at 17.78 29.21 0)
+			(at 17.78 20.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4505,7 +4572,7 @@
 	)
 	(symbol
 		(lib_id "power:+12P")
-		(at 30.48 29.21 0)
+		(at 30.48 20.32 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4514,7 +4581,7 @@
 		(fields_autoplaced yes)
 		(uuid "e30594b8-64cc-444e-aefc-31f23a2d71d0")
 		(property "Reference" "#PWR045"
-			(at 30.48 33.02 0)
+			(at 30.48 24.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4523,7 +4590,7 @@
 			)
 		)
 		(property "Value" "+12P"
-			(at 30.48 24.13 0)
+			(at 30.48 15.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4531,7 +4598,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 30.48 29.21 0)
+			(at 30.48 20.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4540,7 +4607,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 30.48 29.21 0)
+			(at 30.48 20.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4549,7 +4616,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+12P\""
-			(at 30.48 29.21 0)
+			(at 30.48 20.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4968,73 +5035,6 @@
 			(project "LINBoard-HW"
 				(path "/27863e5d-8a22-474c-850d-36d8970b0f4a/f2430bd2-0c34-49e2-a275-9ffcb384aba8"
 					(reference "#PWR062")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:D_Schottky_Small_Filled")
-		(at 22.86 31.75 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "f5492f88-6a0b-4428-90fa-a27ddedf11ec")
-		(property "Reference" "D3"
-			(at 23.114 35.052 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "Schottky"
-			(at 23.114 37.592 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Diode_SMD:D_SOD-123"
-			(at 22.86 31.75 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 22.86 31.75 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Schottky diode, small symbol, filled shape"
-			(at 22.86 31.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "ec9f8515-2e76-4fe8-994d-408ee5359ed4")
-		)
-		(pin "2"
-			(uuid "54cc2783-3e53-47a0-9a3c-af144f648936")
-		)
-		(instances
-			(project "LINBoard-HW"
-				(path "/27863e5d-8a22-474c-850d-36d8970b0f4a/f2430bd2-0c34-49e2-a275-9ffcb384aba8"
-					(reference "D3")
 					(unit 1)
 				)
 			)
