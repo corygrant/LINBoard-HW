@@ -4640,6 +4640,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part" "C17414"
+			(at 82.55 114.3 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "e95575d0-847a-4ca6-a0af-ec6ffca6ee8e")
 		)
@@ -4719,6 +4728,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part" "C2296"
+			(at 64.77 121.92 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "10d47d26-8ab1-4d3d-858a-4f00e4360dba")
 		)
@@ -4779,6 +4797,15 @@
 			)
 		)
 		(property "Description" "Single Pole Single Throw (SPST) switch"
+			(at 76.2 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C318884"
 			(at 76.2 48.26 0)
 			(effects
 				(font
@@ -4939,7 +4966,7 @@
 		(at 198.12 88.9 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "1aaad02f-b710-4f81-a1a0-73d31948e3f7")
@@ -4980,6 +5007,15 @@
 			)
 		)
 		(property "Description" "test point"
+			(at 198.12 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" ""
 			(at 198.12 88.9 0)
 			(effects
 				(font
@@ -5055,6 +5091,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part" ""
+			(at 31.75 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "a43d57a1-1d4e-4fb8-928b-aa19a88d8ba7")
 		)
@@ -5087,7 +5132,7 @@
 		(at 219.71 127 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "32778aa2-3d08-4f58-a14b-ce1852a47e98")
@@ -5128,6 +5173,15 @@
 			)
 		)
 		(property "Description" "test point"
+			(at 219.71 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" ""
 			(at 219.71 127 0)
 			(effects
 				(font
@@ -5212,6 +5266,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part" "C2297"
+			(at 82.55 121.92 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "cebbdd67-82da-4e69-93bc-9cfa3790891d")
 		)
@@ -5232,7 +5295,7 @@
 		(at 198.12 101.6 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "52e093b8-2313-4d11-8813-eb00f8c6e6dd")
@@ -5273,6 +5336,15 @@
 			)
 		)
 		(property "Description" "test point"
+			(at 198.12 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" ""
 			(at 198.12 101.6 0)
 			(effects
 				(font
@@ -5340,6 +5412,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 227.33 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C1710"
 			(at 227.33 25.4 0)
 			(effects
 				(font
@@ -5418,6 +5499,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part" "C144380"
+			(at 85.09 83.82 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "d6c7a1e6-e24e-46b7-aeae-0e7833a29160")
 		)
@@ -5488,6 +5578,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part" "C49678"
+			(at 193.04 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "fe217691-05d8-4230-a1ac-7c5fa9dda9f6")
 		)
@@ -5508,7 +5607,7 @@
 		(at 190.5 77.47 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
@@ -5548,6 +5647,15 @@
 			)
 		)
 		(property "Description" "Jumper, 2-pole, small symbol, bridged"
+			(at 190.5 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" ""
 			(at 190.5 77.47 0)
 			(effects
 				(font
@@ -5626,6 +5734,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part" "C17414"
+			(at 109.22 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "60eee28d-0a6f-4726-ad71-d22e0dbe534a")
 		)
@@ -5686,6 +5803,15 @@
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
 			(at 76.2 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C49678"
+			(at 76.2 52.07 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5904,6 +6030,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part" "C2296"
+			(at 73.66 121.92 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "2b1c757a-ec6a-4160-b6af-fb21f383a172")
 		)
@@ -5990,7 +6125,7 @@
 		(at 100.33 66.04 180)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
@@ -6030,6 +6165,15 @@
 			)
 		)
 		(property "Description" "Switch, single pole double throw"
+			(at 100.33 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" ""
 			(at 100.33 66.04 0)
 			(effects
 				(font
@@ -6103,6 +6247,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 260.35 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C47538"
 			(at 260.35 137.16 0)
 			(effects
 				(font
@@ -6266,6 +6419,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part" "C49678"
+			(at 204.47 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "da71a885-b777-48ca-bb46-9524630fa16f")
 		)
@@ -6399,6 +6561,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part" "C17414"
+			(at 64.77 114.3 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "907f3025-0c5c-4ae1-b656-93539aa731ac")
 		)
@@ -6461,6 +6632,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 273.05 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C49678"
 			(at 273.05 113.03 0)
 			(effects
 				(font
@@ -6556,7 +6736,7 @@
 		(at 95.25 125.73 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "a6d3bca3-fe61-4244-a693-bfe10951850f")
@@ -6597,6 +6777,15 @@
 			)
 		)
 		(property "Description" "test point"
+			(at 95.25 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" ""
 			(at 95.25 125.73 0)
 			(effects
 				(font
@@ -6688,7 +6877,7 @@
 		(at 198.12 95.25 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "b3bee048-f8a8-4589-975c-a24e40c2dd9f")
@@ -6737,6 +6926,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part" ""
+			(at 198.12 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "f21304ce-7b33-4df1-8683-1bd209ce0ab0")
 		)
@@ -6754,7 +6952,7 @@
 		(at 190.5 80.01 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "b820442e-09a1-4099-bce4-62f6189b1a5d")
@@ -6793,6 +6991,15 @@
 			)
 		)
 		(property "Description" "Jumper, 2-pole, small symbol, bridged"
+			(at 190.5 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" ""
 			(at 190.5 80.01 0)
 			(effects
 				(font
@@ -7066,6 +7273,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part" "C17414"
+			(at 73.66 114.3 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "e7477916-65cb-47c2-af66-f73f1bdf4a0c")
 		)
@@ -7202,6 +7418,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part" "C28323"
+			(at 238.76 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "14f0b2f1-f89d-4e05-89cb-2b4d7ea838da")
 		)
@@ -7264,6 +7489,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 215.9 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C1779"
 			(at 215.9 25.4 0)
 			(effects
 				(font
@@ -7537,6 +7771,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part" "C1808"
+			(at 77.47 86.36 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "21e26a80-4a5e-46d0-b618-abc2000225c0")
 		)
@@ -7637,7 +7880,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "STM32F302C8Tx"
+		(property "Value" "STM32F302CCTx"
 			(at 150.7333 148.59 0)
 			(effects
 				(font
@@ -7666,6 +7909,15 @@
 			)
 		)
 		(property "Description" "STMicroelectronics Arm Cortex-M4 MCU, 64KB flash, 16KB RAM, 72 MHz, 2.0-3.6V, 37 GPIO, LQFP48"
+			(at 146.05 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C262946"
 			(at 146.05 105.41 0)
 			(effects
 				(font
@@ -7880,6 +8132,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part" "C1808"
+			(at 77.47 81.28 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "2b2fee5e-89f9-4c14-a141-fffd107d054e")
 		)
@@ -7950,6 +8211,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part" "C49678"
+			(at 181.61 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "d3fda397-fe3c-4c27-8c12-ac0960a6bc12")
 		)
@@ -7970,7 +8240,7 @@
 		(at 95.25 133.35 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "ee6f0d91-3cb7-4a00-8a9a-7aafe702d52a")
@@ -8011,6 +8281,15 @@
 			)
 		)
 		(property "Description" "test point"
+			(at 95.25 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" ""
 			(at 95.25 133.35 0)
 			(effects
 				(font
@@ -8083,6 +8362,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part" "C17414"
+			(at 238.76 123.19 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "f1ba12ba-7717-43eb-8959-9f5affdcdb98")
 		)
@@ -8143,6 +8431,15 @@
 		)
 		(property "Description" "Resistor, small US symbol"
 			(at 246.38 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C17414"
+			(at 246.38 123.19 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8236,7 +8533,7 @@
 		(at 227.33 127 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "f6e3ba6e-ce16-4136-9dfa-67d173cb24d1")
@@ -8277,6 +8574,15 @@
 			)
 		)
 		(property "Description" "test point"
+			(at 227.33 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" ""
 			(at 227.33 127 0)
 			(effects
 				(font

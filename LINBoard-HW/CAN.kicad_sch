@@ -2037,6 +2037,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part" "C17513"
+			(at 134.62 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "2200b0f3-e782-4a1f-a757-250c3e57b11e")
 		)
@@ -2199,6 +2208,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part" "C2976509"
+			(at 182.88 99.06 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "0c70fbea-0be1-4fed-907c-705594105322")
 		)
@@ -2265,6 +2283,15 @@
 			)
 		)
 		(property "Description" "High-Speed CAN Transceiver, 1Mbps, 5V supply, Vio pin, -40C to +125C, SOIC-8"
+			(at 152.4 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C7439"
 			(at 152.4 85.09 0)
 			(effects
 				(font
@@ -2353,6 +2380,15 @@
 			)
 		)
 		(property "Description" "capacitor, small US symbol"
+			(at 207.01 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C49678"
 			(at 207.01 46.99 0)
 			(effects
 				(font

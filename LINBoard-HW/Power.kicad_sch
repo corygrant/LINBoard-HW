@@ -2938,6 +2938,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part" "C229076"
+			(at 200.66 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "bad14138-2f61-4c1a-bff1-650b421c3a07")
 		)
@@ -3006,6 +3015,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part" "C325808"
+			(at 95.25 43.18 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "81482007-3bbc-4fe2-aad8-aa05758cb24b")
 		)
@@ -3067,6 +3085,15 @@
 		)
 		(property "Description" "Inductor, small symbol"
 			(at 113.03 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C467062"
+			(at 113.03 34.29 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3210,6 +3237,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part" "C49678"
+			(at 50.8 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "731bff86-f0ec-4b3b-81a8-f4ebad2fab84")
 		)
@@ -3280,6 +3316,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part" "C17740"
+			(at 119.38 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "b2dd4197-138a-42b5-9bb2-b6b6f8d4f637")
 		)
@@ -3341,6 +3386,15 @@
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
 			(at 101.6 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C49678"
+			(at 101.6 43.18 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3484,6 +3538,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part" "C45783"
+			(at 132.08 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "19e17244-05d6-40c5-be88-768a0134eafa")
 		)
@@ -3543,6 +3606,15 @@
 			)
 		)
 		(property "Description" "Schottky diode, small symbol, filled shape"
+			(at 22.86 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C179426"
 			(at 22.86 22.86 0)
 			(effects
 				(font
@@ -3679,6 +3751,15 @@
 			)
 		)
 		(property "Description" "Resistor, small US symbol"
+			(at 119.38 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C17414"
 			(at 119.38 54.61 0)
 			(effects
 				(font
@@ -4021,6 +4102,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part" "C15850"
+			(at 30.48 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "924879e5-1027-4f12-81cd-9b09cfa73ee8")
 		)
@@ -4083,6 +4173,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 187.96 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C15850"
 			(at 187.96 39.37 0)
 			(effects
 				(font
@@ -4170,6 +4269,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part" "C2297"
+			(at 200.66 50.8 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "b1b0a39c-c0c9-4588-ab19-61637b09f6ab")
 		)
@@ -4240,6 +4348,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part" "C15850"
+			(at 40.64 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "d6d1f441-6f76-4f9f-a1a4-b98557ec5614")
 		)
@@ -4302,6 +4419,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 152.4 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C49678"
 			(at 152.4 39.37 0)
 			(effects
 				(font
@@ -4469,6 +4595,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part" "C35879"
+			(at 172.72 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "a924198d-8a30-4ef9-96e0-cd6fe7d8423b")
 		)
@@ -4535,6 +4670,15 @@
 			)
 		)
 		(property "Description" "4.5V to 24V Input, 3-A Output Synchronous Buck Converter, SOT-23-6"
+			(at 77.47 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C2071106"
 			(at 77.47 43.18 0)
 			(effects
 				(font
@@ -4641,7 +4785,7 @@
 		(at 200.66 38.1 90)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
@@ -4684,6 +4828,15 @@
 		)
 		(property "Description" "Jumper, 2-pole, small symbol, bridged"
 			(at 200.66 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" ""
+			(at 200.66 38.1 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4819,6 +4972,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 142.24 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C45783"
 			(at 142.24 39.37 0)
 			(effects
 				(font
