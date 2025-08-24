@@ -1744,6 +1744,12 @@
 		)
 	)
 	(junction
+		(at 59.69 43.18)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0044b581-3f7b-4a7d-9a8d-820ceb0d370f")
+	)
+	(junction
 		(at 106.68 161.29)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1754,12 +1760,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "8eb13b5f-76f1-4803-99e0-e6ce895d5b22")
-	)
-	(junction
-		(at 57.15 48.26)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "ae4ae397-f182-4cca-a2a1-6676544ec0e3")
 	)
 	(junction
 		(at 72.39 161.29)
@@ -1794,16 +1794,6 @@
 			(type default)
 		)
 		(uuid "1eaa7ab7-cff0-4ed2-a6ec-fd63cf7b5fc2")
-	)
-	(wire
-		(pts
-			(xy 57.15 45.72) (xy 57.15 48.26)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "27e75553-5691-4da8-a583-1853cb7ae9af")
 	)
 	(wire
 		(pts
@@ -1877,6 +1867,26 @@
 	)
 	(wire
 		(pts
+			(xy 59.69 43.18) (xy 60.96 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "99c68bf8-709a-4dd4-be91-632a80e83a0f")
+	)
+	(wire
+		(pts
+			(xy 58.42 43.18) (xy 59.69 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b7de78bf-704f-4736-8a22-304c40926d49")
+	)
+	(wire
+		(pts
 			(xy 88.9 140.97) (xy 99.06 140.97)
 		)
 		(stroke
@@ -1917,6 +1927,16 @@
 	)
 	(wire
 		(pts
+			(xy 60.96 45.72) (xy 59.69 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d2a43b91-4e44-4b47-9831-315337562109")
+	)
+	(wire
+		(pts
 			(xy 57.15 48.26) (xy 57.15 55.88)
 		)
 		(stroke
@@ -1927,6 +1947,16 @@
 	)
 	(wire
 		(pts
+			(xy 59.69 43.18) (xy 59.69 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e598f4ac-5055-4403-bf46-8f5e623967d0")
+	)
+	(wire
+		(pts
 			(xy 72.39 158.75) (xy 72.39 161.29)
 		)
 		(stroke
@@ -1934,16 +1964,6 @@
 			(type default)
 		)
 		(uuid "ea8ae304-1821-4f5e-886c-4292a6eb7754")
-	)
-	(wire
-		(pts
-			(xy 60.96 45.72) (xy 57.15 45.72)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f4bdcb55-203a-45ee-a4eb-19d06c5c9546")
 	)
 	(wire
 		(pts
@@ -2021,7 +2041,7 @@
 	)
 	(hierarchical_label "LIN"
 		(shape bidirectional)
-		(at 60.96 43.18 180)
+		(at 58.42 43.18 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2582,7 +2602,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part" "C218638"
+		(property "LCSC Part" "C27834"
 			(at 95.25 151.13 0)
 			(effects
 				(font
@@ -2661,7 +2681,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part" "C218638"
+		(property "LCSC Part" "C27834"
 			(at 106.68 156.21 0)
 			(effects
 				(font
@@ -2740,7 +2760,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part" "C218638"
+		(property "LCSC Part" "C27834"
 			(at 86.36 151.13 0)
 			(effects
 				(font

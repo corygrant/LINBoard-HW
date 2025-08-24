@@ -514,7 +514,7 @@
       "plot": "gerber/",
       "pos_files": "gerbers/",
       "specctra_dsn": "",
-      "step": "",
+      "step": "LINBoard-HW.step",
       "svg": "",
       "vrml": ""
     },
@@ -565,13 +565,13 @@
           "group_by": true,
           "label": "Exclude from BOM",
           "name": "${EXCLUDE_FROM_BOM}",
-          "show": false
+          "show": true
         },
         {
           "group_by": true,
           "label": "Exclude from Board",
           "name": "${EXCLUDE_FROM_BOARD}",
-          "show": false
+          "show": true
         },
         {
           "group_by": true,
@@ -665,7 +665,7 @@
         }
       ],
       "filter_string": "",
-      "group_symbols": false,
+      "group_symbols": true,
       "include_excluded_from_bom": true,
       "name": "",
       "sort_asc": true,

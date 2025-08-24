@@ -2090,7 +2090,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part" ""
+		(property "LCSC Part" "C576920"
 			(at 157.48 113.03 0)
 			(effects
 				(font
