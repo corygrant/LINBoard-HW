@@ -65,6 +65,17 @@
 			(embedded_fonts no)
 		)
 	)
+	(text "V1.1\n-Change reset switch to 4 pin\n-Add TVS diode on power in"
+		(exclude_from_sim no)
+		(at 31.496 164.084 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "03647c9a-f4d5-4911-8e75-c5b1738c44f8")
+	)
 	(wire
 		(pts
 			(xy 124.46 83.82) (xy 134.62 83.82)
